@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\Frontend\\index.html",
+      "PackagePath": "staticwebassets\\Frontend\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\Frontend\\routes.js",
+      "PackagePath": "staticwebassets\\Frontend\\routes.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ApiTest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ApiTest.props",
+      "PackagePath": "build\\ApiTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiTest.props",
+      "PackagePath": "buildMultiTargeting\\ApiTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ApiTest.props",
+      "PackagePath": "buildTransitive\\ApiTest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

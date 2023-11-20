@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "6yOGgNpv3DIZJtrrprVlEtW9nrZ6cvwHERewrUyTkdQ=",
+  "Source": "ApiTest",
+  "BasePath": "_content/ApiTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiTest\\wwwroot",
+      "Source": "ApiTest",
+      "ContentRoot": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\",
+      "BasePath": "_content/ApiTest",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\Frontend\\index.html",
+      "SourceId": "ApiTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\",
+      "BasePath": "_content/ApiTest",
+      "RelativePath": "Frontend/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Frontend\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\Frontend\\routes.js",
+      "SourceId": "ApiTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chloe\\Desktop\\AeroqualCloudTest\\ApiTest\\wwwroot\\",
+      "BasePath": "_content/ApiTest",
+      "RelativePath": "Frontend/routes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Frontend\\routes.js"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>User List</title>
+    <style>
+        .table-style {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .table-style th, .table-style td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+
+            .table-style tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .table-style th {
+                background-color: #0498c7; 
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2>Search by Name</h2>
+        <input type="text" id="personName" size="20" />
+        <input type="button" value="Search" onclick="searchByName();" />
+        <input type="button" value="Add a new person" onclick="addNewPerson();" />
+        <div id="searchResults"></div>
+    </div>
+
+    <div>
+        <h2>All Users</h2>
+        <table class="table-style" id="peopleTable">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="./routes.js"></script>
+    
+</body>
+</html>
